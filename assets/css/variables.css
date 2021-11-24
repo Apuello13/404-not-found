@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@200&family=Space+Mono&display=swap');
+
+:root{
+    /*Colores*/
+    --black: #333333;
+    --gray: #BDBDBD;
+    --white: #fff;
+    /*Fonts*/
+    --space_mono: 'Space Mono', monospace;
+    --incosolata: 'Inconsolata', monospace;
+    --montserrat: 'Montserrat', sans-serif;
+    /*Font-w*/
+    --fw_700: 700;
+    --fw_400: 400;
+    /*Font-size*/
+    --size_24: 24px;
+}

@@ -1,0 +1,115 @@
+@import url("./variables.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Styles for head*/
+.head{
+    padding: 2rem 4rem;
+}
+
+.head h5{
+    font-family: var(--incosolata);
+    font-size: var(--size_24);
+}
+/*End Styles for head*/
+
+/*Styles for body*/
+.body{
+    padding: 1.5rem 4rem;
+    height: auto;
+}
+
+.body img{
+    padding: 0 1rem;
+}
+
+.container_text h1{
+    width: 20rem;
+    line-height: 4.5rem;
+}
+
+.container_text h5{
+    width: 400px;
+    font-weight: var(--fw_400);
+    line-height: 2.3rem;
+    font-size: var(--size_24);
+}
+/*End styles for body*/
+
+/*Styles for footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    font-family: var(--montserrat);
+    color: var(--gray);
+}
+/*End Styles for footer*/
+
+/*Styles for button*/
+.btn{
+    background: var(--black);
+    padding: 0.8rem 1.6rem;
+    border: 1px solid var(--black);
+    color: var(--white);
+}
+/*End Styles for button*/
+
+/*Global styles*/
+.text_upper_case{
+    text-transform: uppercase;
+}
+
+.fw_700{
+    font-weight: var(--fw_700);
+}
+
+.font_space_mono{
+    font-family: var(--space_mono);
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.mt-2{
+    margin-top: 2.5rem;
+}
+
+/*Resposive*/
+@media (max-width: 600px) {
+    .d-flex{
+        flex-direction: column;
+    }
+
+    .body{
+        padding: 1.5rem 1rem;
+    }
+
+    .body img{
+        width: 420px;
+    }
+
+    .head{
+        padding: 2rem 1rem;
+    }
+
+    .container_text h5{
+        width: 100%;
+    }
+}
